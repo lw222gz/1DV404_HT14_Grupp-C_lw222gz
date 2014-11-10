@@ -4,3 +4,9 @@ c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNas
 c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.csprojResolveAssemblyReference.cache
 c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.exe
 c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\RaknaNaststorsta\RaknaNaststorsta\bin\Debug\RaknaNaststorsta.exe.config
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.exe
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\RaknaNaststorsta\RaknaNaststorsta\bin\Debug\RaknaNaststorsta.exe
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\RaknaNaststorsta\RaknaNaststorsta\bin\Debug\RaknaNaststorsta.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.csprojResolveAssemblyReference.cache
