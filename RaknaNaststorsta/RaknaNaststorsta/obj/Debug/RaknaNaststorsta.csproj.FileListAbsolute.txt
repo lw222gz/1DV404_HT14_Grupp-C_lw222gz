@@ -1,0 +1,6 @@
+c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\bin\Debug\RaknaNaststorsta.exe.config
+c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\bin\Debug\RaknaNaststorsta.exe
+c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\bin\Debug\RaknaNaststorsta.pdb
+c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.csprojResolveAssemblyReference.cache
+c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.exe
+c:\users\lw222gz\documents\visual studio 2013\Projects\RaknaNaststorsta\RaknaNaststorsta\obj\Debug\RaknaNaststorsta.pdb

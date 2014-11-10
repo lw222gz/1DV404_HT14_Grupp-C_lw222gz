@@ -1,0 +1,6 @@
+c:\users\lw222gz\documents\visual studio 2013\Projects\Palidrom\Palidrom\bin\Debug\Palidrom.exe.config
+c:\users\lw222gz\documents\visual studio 2013\Projects\Palidrom\Palidrom\bin\Debug\Palidrom.exe
+c:\users\lw222gz\documents\visual studio 2013\Projects\Palidrom\Palidrom\bin\Debug\Palidrom.pdb
+c:\users\lw222gz\documents\visual studio 2013\Projects\Palidrom\Palidrom\obj\Debug\Palidrom.csprojResolveAssemblyReference.cache
+c:\users\lw222gz\documents\visual studio 2013\Projects\Palidrom\Palidrom\obj\Debug\Palidrom.exe
+c:\users\lw222gz\documents\visual studio 2013\Projects\Palidrom\Palidrom\obj\Debug\Palidrom.pdb
