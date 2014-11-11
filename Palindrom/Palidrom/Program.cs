@@ -20,7 +20,11 @@ namespace Palidrom
                 Console.WriteLine("Skriv in ett Palindrom, du får bara använda små eller bara stora bokstäver (inga tecken heller):");
                 string input = Console.ReadLine();
                 string poli = input.Replace(" ", "");
-                string NewStr = "";               
+                string NewStr = "";
+                char c1 = (char)1;
+                
+                
+
                 char value;                
 
                 if (input == input.ToLower())
@@ -43,13 +47,14 @@ namespace Palidrom
                 {
                     for (int i = 0; i < poli.Length; i++)
                     {
-                        value = poli[poli.Length - 1 - i];
+                        value = poli[poli.Length - 1 - i];                       
                         NewStr = NewStr + value.ToString();
+                        
                         if (i == (poli.Length - 1))
                         {
                             if (NewStr == poli)
                             {
-                                Console.WriteLine("{0} är ett palindrom", input);
+                                Console.WriteLine("{0} är ett palindrom {1}", input, c1);
                             }
                             else
                             {

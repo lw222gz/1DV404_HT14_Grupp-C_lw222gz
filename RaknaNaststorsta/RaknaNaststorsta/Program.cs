@@ -12,47 +12,36 @@ namespace RaknaNaststorsta
         {
             do
             {
+                Console.Clear();
                 int number = 0;
-                int NextHighest = -2147483648;
+                int NextHighest = 0;
                 int Highest = 0;
-                bool loop = true;
-                do
+                
+                for (int i = 0; i < 10; i++)
                 {
                     try
                     {
-                        Console.WriteLine("Ange 10 värden:");
-                        Console.Write("Tal 1:   ");
-                        number = int.Parse(Console.ReadLine());
-                        Highest = number;
-                        loop = true;
-                    }
-                    catch
-                    {
-                        Console.BackgroundColor = ConsoleColor.DarkRed;
-                        Console.WriteLine("FEL! Du måste ange ett heltal i rätt format.");
-                        Console.ResetColor();
-                        loop = false;
-                    }
-                } while (loop == false);
-                for (int i = 0; i < 9; i++)
-                {
-                    try
-                    {
-                        Console.Write("Tal {0}:   ", i + 2);
+                        Console.Write("Tal {0}:   ", i + 1);
                         number = int.Parse(Console.ReadLine());
 
-                        if (number > Highest)
+                        if (number > Highest) // Sätter highest om det blir ett nytt högsta tal och nexthighest till det förra högsta talet
                         {
                             NextHighest = Highest;
                             Highest = number;
                         }
-                        if (number > NextHighest && number < Highest)
+                        else if (number > NextHighest) // sätter next highest till ett nytt next highet om heighest in fått nått nytt högre värde men det näst högsta värdet har.
                         {
                             NextHighest = number;
                         }
-
-                        if (i == 8)
+                        if (number < 0 && Highest == 0) // Sätter highest till ett värde om det första talet är negativt
                         {
+                            Highest = number;
+                        }
+                        
+
+                        if (i == 9)
+                        {
+                            Console.WriteLine();
                             Console.WriteLine("{0} är det näst högsta talet.", NextHighest);
                         }
                     }
