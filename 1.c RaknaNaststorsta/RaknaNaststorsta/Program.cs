@@ -9,12 +9,13 @@ namespace RaknaNaststorsta
     {
         static void Main(string[] args)
         {
+            int number = 0;
+                int NextHighest = 0;
+                int Highest = 0;
             do
             {
                 Console.Clear();
-                int number = 0;
-                int NextHighest = 0;
-                int Highest = 0;
+                
                 for (int i = 0; i < 10; i++)
                 {
                     try
@@ -23,6 +24,11 @@ namespace RaknaNaststorsta
                         number = int.Parse(Console.ReadLine());
                         if (number > Highest) // Sätter highest om det blir ett nytt högsta tal och nexthighest till det förra högsta talet
                         {
+                            if (i == 0)
+                            {
+                                NextHighest = number;
+                                Highest = number;
+                            }
                             NextHighest = Highest;
                             Highest = number;
                         }
@@ -37,7 +43,7 @@ namespace RaknaNaststorsta
                         if (number < Highest && i == 1) // sätter det näst högsta talet om det andra talet är under det 
                         {
                             NextHighest = number;
-                        }                       
+                        }
                     }
                     catch
                     {
