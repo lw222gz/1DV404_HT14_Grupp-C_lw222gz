@@ -1,0 +1,6 @@
+c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.exe.config
+c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.csprojResolveAssemblyReference.cache
+c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.exe
+c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.pdb
+c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.exe
+c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.pdb

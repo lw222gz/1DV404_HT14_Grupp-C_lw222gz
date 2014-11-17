@@ -10,3 +10,9 @@ P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Palindrom\Palidrom\obj\Debug\Palidrom.pdb
 P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Palindrom\Palidrom\bin\Debug\Palidrom.exe
 P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Palindrom\Palidrom\bin\Debug\Palidrom.pdb
 P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Palindrom\Palidrom\obj\Debug\Palidrom.csprojResolveAssemblyReference.cache
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.a Palindrom\Palidrom\bin\Debug\Palidrom.exe.config
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.a Palindrom\Palidrom\obj\Debug\Palidrom.exe
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.a Palindrom\Palidrom\obj\Debug\Palidrom.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.a Palindrom\Palidrom\bin\Debug\Palidrom.exe
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.a Palindrom\Palidrom\bin\Debug\Palidrom.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.a Palindrom\Palidrom\obj\Debug\Palidrom.csprojResolveAssemblyReference.cache

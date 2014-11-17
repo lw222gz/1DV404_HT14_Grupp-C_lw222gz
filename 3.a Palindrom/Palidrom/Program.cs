@@ -15,7 +15,7 @@ namespace Palidrom
             do
             {                
                 Console.Clear();
-                Console.WriteLine("Några palindrom man kan test : apa, du har bra hud, tor enerot, flyg mot dem med tom gylf.");
+                Console.WriteLine("Några palindrom man kan testa : apa, du har bra hud, tor enerot, flyg mot dem med tom gylf.");
                 Console.WriteLine();
                 Console.WriteLine("Skriv in ett Palindrom, du får bara använda små eller bara stora bokstäver (inga tecken heller):");
                 string input = Console.ReadLine();
