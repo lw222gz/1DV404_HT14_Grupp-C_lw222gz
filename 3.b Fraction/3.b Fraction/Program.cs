@@ -22,7 +22,7 @@ namespace _3.b_Fraction
                     int d;
 
                     Console.Clear();
-                    Fraction test = null;
+                    Fraction fraction = null;
                     Menu();
                     int choice = int.Parse(Console.ReadLine());
                     Console.WriteLine();
@@ -35,38 +35,38 @@ namespace _3.b_Fraction
                             b = ReadFractionValue("Ange den första nämnaren:");
                             c = ReadFractionValue("Ange den andra täljare:");
                             d = ReadFractionValue("Ange den andra nämnaren:");
-                            test = new Fraction(a, b, c, d);
-                            test.Add();
+                            fraction = new Fraction(a, b, c, d);
+                            fraction.Add();
 
                             Console.WriteLine();
                             Console.BackgroundColor = ConsoleColor.DarkBlue;
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.Write("{0}/{1} och {2}/{3}", a, b, c, d);
-                            ViewResult(" adderade blir:", test);
+                            ViewResult(" adderade blir:", fraction);
                             break;
                         case 2:
                             a = ReadFractionValue("Ange den första täljaren:");
                             b = ReadFractionValue("Ange den första nämnaren:");
                             c = ReadFractionValue("Ange den andra täljare:");
                             d = ReadFractionValue("Ange den andra nämnaren:");
-                            test = new Fraction(a, b, c, d);
-                            test.Multiply();
+                            fraction = new Fraction(a, b, c, d);
+                            fraction.Multiply();
 
                             Console.WriteLine();
                             Console.BackgroundColor = ConsoleColor.DarkBlue;
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.Write("{0}/{1} och {2}/{3}", a, b, c, d);
-                            ViewResult(" multiplicerade blir:", test);
+                            ViewResult(" multiplicerade blir:", fraction);
                             break;
                         case 3:
                             a = ReadFractionValue("Ange den första täljaren:");
                             b = ReadFractionValue("Ange den första nämnaren:");
                             c = ReadFractionValue("Ange den andra täljare:");
                             d = ReadFractionValue("Ange den andra nämnaren:");
-                            test = new Fraction(a, b, c, d);
+                            fraction = new Fraction(a, b, c, d);
                             Console.WriteLine();
 
-                            if (test.isEqualTo() == true)
+                            if (fraction.isEqualTo() == true)
                             {
                                 Console.BackgroundColor = ConsoleColor.DarkBlue;
                                 Console.ForegroundColor = ConsoleColor.Green;
@@ -83,8 +83,8 @@ namespace _3.b_Fraction
                         case 4:
                             a = ReadFractionValue("Ange den första täljaren:");
                             b = ReadFractionValue("Ange den första nämnaren:");
-                            test = new Fraction(a, b);
-                            ViewResult("Aha, vet inte varför men här har du det önsakde bråktalet:", test);
+                            fraction = new Fraction(a, b);
+                            ViewResult("Aha, vet inte varför men här har du det önsakde bråktalet:", fraction);
                             break;
                         default:
                             Console.BackgroundColor = ConsoleColor.DarkRed;

@@ -4,3 +4,6 @@ c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction
 c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.pdb
 c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.exe
 c:\users\lw222gz\documents\visual studio 2013\Projects\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.exe.config
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.exe
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.pdb
