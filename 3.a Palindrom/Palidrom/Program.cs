@@ -19,12 +19,10 @@ namespace Palidrom
                 Console.WriteLine();
                 Console.WriteLine("Skriv in ett Palindrom, du får bara använda små eller bara stora bokstäver (inga tecken heller):");
                 string input = Console.ReadLine();
+
                 string poli = input.Replace(" ", "");
                 string NewStr = "";
                 char c1 = (char)1;
-                
-                
-
                 char value;                
 
                 if (input == input.ToLower())
