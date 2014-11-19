@@ -23,7 +23,7 @@ namespace _3.b_Fraction
             get { return _denominator; }
             set
             {
-                if (value <= 0)
+                if (value == 0)
                 {
                     throw new ArgumentOutOfRangeException("Måste ange ett tal över 0");
                 }
@@ -40,7 +40,7 @@ namespace _3.b_Fraction
             get { return _denominator2; }
             set
             {
-                if (value <= 0)
+                if (value == 0)
                 {
                     throw new ArgumentOutOfRangeException("Måste ange ett tal över 0");
                 }
