@@ -48,7 +48,7 @@ namespace _3.b_Fraction
             }
         }
         
-        public Fraction(int numerator, int denominator) : this(numerator, denominator,0,0)
+        public Fraction(int numerator, int denominator) : this(numerator, denominator,1,1)
         {
             
         }

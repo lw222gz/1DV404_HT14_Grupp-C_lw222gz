@@ -44,7 +44,7 @@ namespace _3.b_Fraction
                         case 4:
                             a = ReadFractionValue("Skriv in täljaren: ");
                             b = ReadFractionValue("Skriv in nämnaren: ");
-                            fraction = new Fraction(a, b, 1, 1);
+                            fraction = new Fraction(a, b);
                             Console.WriteLine();
                             Console.BackgroundColor = ConsoleColor.Blue;
                             Console.WriteLine("En väldigt onödig funktion som skriver ut {0}", fraction.ToString());
