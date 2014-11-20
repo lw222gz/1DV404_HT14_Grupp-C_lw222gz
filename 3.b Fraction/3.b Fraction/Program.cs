@@ -8,22 +8,24 @@ namespace _3.b_Fraction
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
 
             do
             {
+                int a = 0;
+                int b = 0;
+                int c = 0;
+                int d = 0;
+                Fraction fraction = null;
+
                 try
                 {
-                    int a;
-                    int b;
-                    int c;
-                    int d;
-
                     Console.Clear();
-                    Fraction fraction = null;
+
                     Menu();
+
                     int choice = int.Parse(Console.ReadLine());
                     Console.WriteLine();
                     switch (choice)
@@ -31,73 +33,68 @@ namespace _3.b_Fraction
                         case 0:
                             return;
                         case 1:
-                            a = ReadFractionValue("Ange den första täljaren:");
-                            b = ReadFractionValue("Ange den första nämnaren:");
-                            c = ReadFractionValue("Ange den andra täljare:");
-                            d = ReadFractionValue("Ange den andra nämnaren:");
-                            fraction = new Fraction(a, b, c, d);
-                            fraction.Add();
-
-                            Console.WriteLine();
-                            Console.BackgroundColor = ConsoleColor.DarkBlue;
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.Write("{0}/{1} och {2}/{3}", a, b, c, d);
-                            ViewResult(" adderade blir:", fraction);
-                            break;
                         case 2:
-                            a = ReadFractionValue("Ange den första täljaren:");
-                            b = ReadFractionValue("Ange den första nämnaren:");
-                            c = ReadFractionValue("Ange den andra täljare:");
-                            d = ReadFractionValue("Ange den andra nämnaren:");
-                            fraction = new Fraction(a, b, c, d);
-                            fraction.Multiply();
-
-                            Console.WriteLine();
-                            Console.BackgroundColor = ConsoleColor.DarkBlue;
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.Write("{0}/{1} och {2}/{3}", a, b, c, d);
-                            ViewResult(" multiplicerade blir:", fraction);
-                            break;
                         case 3:
-                            a = ReadFractionValue("Ange den första täljaren:");
-                            b = ReadFractionValue("Ange den första nämnaren:");
-                            c = ReadFractionValue("Ange den andra täljare:");
-                            d = ReadFractionValue("Ange den andra nämnaren:");
+                            a = ReadFractionValue("Skriv in den första täljaren: ");
+                            b = ReadFractionValue("Skriv in den första nämnaren: ");
+                            c = ReadFractionValue("Skriv in den andra täljaren: ");
+                            d = ReadFractionValue("Skriv in den andra nämnaren: ");
                             fraction = new Fraction(a, b, c, d);
-                            Console.WriteLine();
-
-                            if (fraction.isEqualTo() == true)
-                            {
-                                Console.BackgroundColor = ConsoleColor.DarkBlue;
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                Console.WriteLine("De angivna bråken är jämna!");
-                                Console.ResetColor();
-                            }
-                            else
-                            {
-                                Console.BackgroundColor = ConsoleColor.DarkRed;
-                                Console.WriteLine("De angivna bråken är inte jämna.");
-                                Console.ResetColor();
-                            }
                             break;
                         case 4:
-                            a = ReadFractionValue("Ange den första täljaren:");
-                            b = ReadFractionValue("Ange den första nämnaren:");
-                            fraction = new Fraction(a, b);
-                            ViewResult("Aha, vet inte varför men här har du det önsakde bråktalet:", fraction);
-                            break;
-                        default:
-                            Console.BackgroundColor = ConsoleColor.DarkRed;
-                            Console.WriteLine("Du måste ange ett tal emellan 0-4.");
+                            a = ReadFractionValue("Skriv in täljaren: ");
+                            b = ReadFractionValue("Skriv in nämnaren: ");
+                            fraction = new Fraction(a, b, 1, 1);
+                            Console.WriteLine();
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.WriteLine("En väldigt onödig funktion som skriver ut {0}", fraction.ToString());
                             Console.ResetColor();
                             break;
+                        default:
+                            throw new ArgumentOutOfRangeException();
+
                     }
+                    if (choice == 1)
+                    {
+                        fraction.Add();
+                        Console.WriteLine();
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("{0}/{1} + {2}/{3} = {4}", a, b, c, d, fraction.ToString());
+                        Console.ResetColor();
+                    }
+                    else if (choice == 2)
+                    {                        
+                        fraction.Multiply();
+                        Console.WriteLine();
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("{0}/{1} * {2}/{3} = {4}", a, b, c, d, fraction.ToString());
+                        Console.ResetColor();
+                    }
+                    else if (choice == 3)
+                    {
+                        if (fraction.isEqualTo() == true)
+                        {
+                            Console.BackgroundColor = ConsoleColor.DarkBlue;
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine("De angivna bråken är jämna!");
+                            Console.ResetColor();
+                        }
+                        else
+                        {
+                            Console.BackgroundColor = ConsoleColor.DarkRed;
+                            Console.WriteLine("De angivna bråken är inte jämna.");
+                            Console.ResetColor();
+                        }
+
+                    }
+
+
+
                 }
-              
                 catch
                 {
                     Console.BackgroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("FEL! Du får inte skriva in bokstäver SAMT så måste en nämnare vara större än 0.");
+                    Console.WriteLine("FEL! Se till så att siffran är inom intervallet och att du inte skriver in bokstäver.");
                     Console.ResetColor();
                 }
                 Console.WriteLine();
@@ -125,7 +122,7 @@ namespace _3.b_Fraction
             Console.WriteLine();
             Console.ResetColor();
         }
-
+        
         static int ReadFractionValue(string promt)
         {
             int value;
@@ -146,15 +143,6 @@ namespace _3.b_Fraction
                     Console.ResetColor();
                 }
             }
-        }
-        static void ViewResult(string prompt, Fraction fraction)
-        {
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.ForegroundColor = ConsoleColor.Green;           
-            Console.Write("{0} {1}", prompt, fraction.ToString());
-            Console.ResetColor();
-            Console.WriteLine();
-        }
-        
+        }               
     }
 }
