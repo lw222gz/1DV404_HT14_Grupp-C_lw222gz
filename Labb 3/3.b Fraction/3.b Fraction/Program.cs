@@ -126,9 +126,10 @@ namespace _3.b_Fraction
         static int ReadFractionValue(string promt)
         {
             int value;
-            Console.Write(promt);
+            
             while (true)
             {
+                Console.Write(promt);
                 string input = Console.ReadLine();
                 try
                 {                   

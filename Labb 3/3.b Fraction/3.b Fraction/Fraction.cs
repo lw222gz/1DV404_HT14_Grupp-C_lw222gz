@@ -74,10 +74,10 @@ namespace _3.b_Fraction
 
         public bool isEqualTo()
         {
-            int compareNumerator;
-            compareNumerator = Numerator2 * Denominator;        
+            
+            Numerator2 = Numerator2 * Denominator;        
             Numerator = Numerator * Denominator2;
-            if (compareNumerator == Numerator)
+            if (Numerator2 == Numerator)
             {
                 return true;
             }

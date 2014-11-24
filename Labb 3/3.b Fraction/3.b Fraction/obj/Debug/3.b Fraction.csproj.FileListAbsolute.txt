@@ -10,3 +10,9 @@ P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.b Fraction\3.b Fraction\obj\Debug\3.b Fr
 P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.exe
 P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.pdb
 P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.csprojResolveAssemblyReference.cache
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Labb 3\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.exe.config
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Labb 3\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.exe
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Labb 3\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Labb 3\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.exe
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Labb 3\3.b Fraction\3.b Fraction\bin\Debug\3.b Fraction.pdb
+P:\Csharp\1DV404_HT14_Grupp-C_lw222gz\Labb 3\3.b Fraction\3.b Fraction\obj\Debug\3.b Fraction.csprojResolveAssemblyReference.cache
